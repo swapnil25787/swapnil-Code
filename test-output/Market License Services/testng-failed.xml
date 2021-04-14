@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Market License Services]">
+  <listeners>
+    <listener class-name="api.TestReport"/>
+    <listener class-name="api.MyTransformer"/>
+    <listener class-name="api.TestNgInvocationListener"/>
+  </listeners>
+  <test name="main-suite-test1(failed)">
+    <classes>
+      <class name="com.abm.mainet.mkt.MarketLicenseServices">
+        <methods>
+          <include name="marketLicense_Scrutiny"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.abm.mainet.mkt.MarketLicenseServices -->
+    </classes>
+  </test> <!-- main-suite-test1(failed) -->
+</suite> <!-- Failed suite [Market License Services] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Town Planning Services]">
+  <listeners>
+    <listener class-name="api.TestReport"/>
+    <listener class-name="api.MyTransformer"/>
+    <listener class-name="api.TestNgInvocationListener"/>
+    <listener class-name="errorhandling.InvokedMethodListener"/>
+  </listeners>
+  <test name="main-suite-test1(failed)">
+    <classes>
+      <class name="com.abm.mainet.tp.TownPlanningServices">
+        <methods>
+          <include name="tp_ApplicationForLandDevp"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.abm.mainet.tp.TownPlanningServices -->
+    </classes>
+  </test> <!-- main-suite-test1(failed) -->
+</suite> <!-- Failed suite [Town Planning Services] -->

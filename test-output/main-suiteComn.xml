@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Services" verbose="1">
+	<listeners>
+		<listener class-name="api.TestReport" />
+		<listener class-name="api.MyTransformer" />
+		<listener class-name="api.TestNgInvocationListener" />
+		</listeners>
+	
+	<test name="main-suite-test1">
+	<classes>
+
+			<class name="com.abm.mainet.rti.RTIServices" />
+            		
+		  <class name="com.abm.mainet.legal.LegalServices"/>		
+		</classes>
+
+	</test>
+	
+
+</suite>

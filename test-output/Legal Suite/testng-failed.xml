@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Legal Suite]">
+  <listeners>
+    <listener class-name="api.TestReport"/>
+    <listener class-name="api.MyTransformer"/>
+    <listener class-name="api.TestNgInvocationListener"/>
+  </listeners>
+  <test name="main-suite-test1(failed)">
+    <classes>
+      <class name="com.abm.mainet.legal.LegalServices">
+        <methods>
+          <include name="lgl_caseMasterEntry"/>
+          <include name="after"/>
+          <include name="lgl_caseHearingEntry"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.abm.mainet.legal.LegalServices -->
+    </classes>
+  </test> <!-- main-suite-test1(failed) -->
+</suite> <!-- Failed suite [Legal Suite] -->

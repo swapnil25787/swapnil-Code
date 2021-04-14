@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><sequence>
+
+<sequence-name name="seqLegal">
+	<initial-num>1</initial-num>
+	<current-num>4</current-num>
+	<prefix>suite</prefix>
+	<suffix>sneha</suffix>
+</sequence-name>
+
+
+
+
+<!-- <sequence-name name="seqLegalTejas">
+	<initial-num>1</initial-num>
+	<current-num>3</current-num>
+	<prefix>suite</prefix>
+	<suffix>tej</suffix>
+</sequence-name> -->
+
+
+<sequence-name name="seqBnD">
+	<initial-num>10</initial-num>
+	<current-num>25</current-num>
+	<prefix>birth</prefix>
+	<suffix>bnd</suffix>
+</sequence-name>
+
+
+
+</sequence>

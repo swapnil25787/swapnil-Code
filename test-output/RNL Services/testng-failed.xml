@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RNL Services]">
+  <listeners>
+    <listener class-name="api.TestReport"/>
+    <listener class-name="api.MyTransformer"/>
+    <listener class-name="api.TestNgInvocationListener"/>
+    <listener class-name="errorhandling.InvokedMethodListener"/>
+  </listeners>
+  <test name="main-suite-test1(failed)">
+    <classes>
+      <class name="com.abm.mainet.rnl.RentAndLeaseServices">
+        <methods>
+          <include name="rnl_Loipayment"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.abm.mainet.rnl.RentAndLeaseServices -->
+    </classes>
+  </test> <!-- main-suite-test1(failed) -->
+</suite> <!-- Failed suite [RNL Services] -->

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+<properties>
+
+ 
+	<entry key="waitForVisibleTimeout">60</entry>
+
+	<entry key="genericWaitTimeout">120</entry>  
+
+	<entry key="modulePath">D:\Test_Artefacts\</entry>
+	<entry key="chromeDriverPath">.\functional\config\chromedriver36.exe</entry>
+	<entry key="configFilePath">.\functional\config\config.xml</entry>
+	<entry key="testReportPropertiesPath">.\functional\report.properties</entry> 
+	<entry key="reportCSSPath">.\test-output\report-css.css</entry>
+	<entry key="passedImagePath">.\test-output\passed_img.png</entry>
+	<entry key="failedImagePath">.\test-output\failed_img.png</entry>
+	<entry key="skippedImagePath">.\test-output\skipped_img.png</entry>
+	<entry key="killProcessBatFilePath">\framework\batfiletokillprocess.bat></entry>
+	<entry key="killProcessBatFilePath">.\framework\batfiletokillprocess.bat</entry>
+	<entry key="excelColumn">1</entry>
+	<entry key="ContinueExecutionOnError">true</entry>
+	<entry key="sequenceGenXML">.\functional\config\sequenceGenerator.xml</entry>
+	<entry key="ieDriverPath">.\functional\config\IEDriverServer.exe</entry>
+
+
+
+	<!-- Upload Paths Start -->
+
+	<entry key="uploadfromxml">\uploads\</entry>
+
+	<!-- Upload Paths END -->
+
+
+
+	<!-- Control File Paths -->
+	<entry key="ADH">\framework\excelreader\ADH\ADH_ControlFile.xlsx</entry>
+	<entry key="TS">\framework\excelreader\TS\TS_ControlFile.xlsx</entry>
+<entry key="EIP">\framework\excelreader\EIP\EIP_ControlFile.xlsx</entry>
+	<entry key="BND">\framework\excelreader\BND\BND_ControlFile.xlsx</entry>
+	<entry key="LEGAL">\framework\excelreader\Legal\Legal_ControlFile.xlsx</entry>
+	<entry key="AUDIT">\framework\excelreader\Audit\Audit_ControlFile.xlsx</entry>
+	<entry key="MKT">\framework\excelreader\MKT\MKT_ControlFile.xlsx</entry>
+	<entry key="PT">\framework\excelreader\PT\PT_ControlFile.xlsx</entry>
+	<entry key="RNL">\framework\excelreader\RNL\RNL_ControlFile.xlsx</entry>
+	<entry key="TP">\framework\excelreader\TP\TP_ControlFile.xlsx</entry>
+	<entry key="ITSUPPORT">\framework\excelreader\Legal\ITSupport_ControlFile.xlsx</entry>
+	<entry key="RTI">\framework\excelreader\RTI\RTI_ControlFile.xlsx</entry>
+	<!-- Control File Paths ends -->
+
+
+
+
+	<!-- Bat files Dynamic path STARTS -->
+
+	<entry key="killProcessBatFilePath">.\framework\batfiletokillprocess.bat</entry>
+	<entry key="testngbatFilePath">\framework\trialfortestng.bat</entry>
+	<entry key="IPMSGprocessKillbatFilePath">.\framework\IPMSG_Process_killer.bat</entry>
+
+	<!-- Bat files Dynamic path ENDS -->
+
+
+</properties>
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestNg Executioner" parallel="false">
+	<listeners>
+		<listener class-name="api.TestReport" />
+	</listeners>
+
+	<test name="main-suite-test1">
+		<classes>
+			<class name="api.TestNgExcelReader"/>
+		</classes>
+	</test>
+
+	
+
+</suite>

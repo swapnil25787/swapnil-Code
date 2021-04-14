@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Audit Suite" parallel="false">
+	<listeners>
+		<listener class-name="api.TestReport" />
+		<listener class-name="api.MyTransformer" />
+		<listener class-name="api.TestNgInvocationListener" />
+		<listener class-name="errorhandling.InvokedMethodListener" />
+	</listeners>
+	<!-- <suite-files> <suite-file path="./suite1.xml" /> <suite-file path="./suite2.xml" 
+		/> </suite-files> -->
+	<test name="main-suite-test1">
+		<classes> 
+			<class name="com.abm.mainet.audit.AuditServices" />
+		</classes>
+	</test>
+</suite> 

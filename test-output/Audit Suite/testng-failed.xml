@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Audit Suite]">
+  <listeners>
+    <listener class-name="api.TestReport"/>
+    <listener class-name="api.MyTransformer"/>
+    <listener class-name="api.TestNgInvocationListener"/>
+    <listener class-name="errorhandling.InvokedMethodListener"/>
+  </listeners>
+  <test name="main-suite-test1(failed)">
+    <classes>
+      <class name="com.abm.mainet.audit.AuditServices">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="adt_PlanAudit"/>
+          <include name="adt_ScheduleAudit"/>
+          <include name="adt_HodResp_AuditMemoCombn_loop"/>
+          <include name="adt_AssignHOD"/>
+        </methods>
+      </class> <!-- com.abm.mainet.audit.AuditServices -->
+    </classes>
+  </test> <!-- main-suite-test1(failed) -->
+</suite> <!-- Failed suite [Audit Suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="BND Services" parallel="false">
+	<listeners>
+		<listener class-name="api.TestReport" />
+		<listener class-name="api.MyTransformer" />
+		<listener class-name="api.TestNgInvocationListener" />
+	</listeners>
+		
+		
+	<test name="main-suite-test1">
+		<classes>		
+			<class name="com.abm.mainet.bnd.BirthAndDeathServices"/>
+		</classes>
+	</test>
+
+</suite>

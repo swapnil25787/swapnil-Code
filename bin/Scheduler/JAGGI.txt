@@ -1,0 +1,43 @@
+SchTasks /Create /S MH073 /U SWASTIK\shivram.deshmukh  /P 123456  /RU SWASTIK\swapnil.patil /RP Swap@25787 /SC DAILY /TN “My Task” /TR “C:RunMe.bat” /ST 09:00
+
+
+SCHTASKS	/Create /S ABC /U domain\user /P password /SC MINUTE /MO 5 /TN accountant /TR calc.exe /ST 12:00 /ET 14:00 /SD 06/06/2006 /ED 06/06/2006 /RU runasuser /RP userpassword
+
+SCHTASKS	/Create /S MH073 /U SWASTIK\swapnil.patil  /P Swap@25787  /RU SWASTIK\shivram.deshmukh /RP 123456 /SC HOURLY /TN doc /TR calc.exe
+
+SCHTASKS/Create /S MH073   /U SWASTIK\swapnil.patil /P Swap@25787. /RU SWASTIK\shivram.deshmukh /RP 123456  /SC HOURLY /TN accounts /TR calc.exe /ST 15:47
+SCHTASKS/Create /S MH073   /U SWASTIK\swapnil.patil /P Swap@25787. /RU SWASTIK\shivram.deshmukh /RP 123456  /SC HOURLY /TN accounts /TR calc.exe /ST 15:47
+
+
+SCHTASKS/Create /S MH073 /RU "SWASTIK\shivram.deshmukh" /RP 123456  /SC HOURLY /TN accounts /TR calc.exe /ST 11:26
+SCHTASKS/Create /S MH073 /RU Administrator /RP pass@123  /SC HOURLY /TN accounts /TR calc.exe /ST 11:26
+
+
+Administrator
+
+SCHTASKS/Create /S MH073 /U SWASTIK\swapnil.patil /P Swap@25787. /RU SWASTIK\shivram.deshmukh /RP 123456  /SC HOURLY /TN accounts /TR C:\Windows\System32\calc.exe /ST 01:19
+
+
+
+
+
+SCHTASKS/Create /S MH073   /U SWASTIK\shivram.deshmukh /P 123456 /RU SWASTIK\shivram.deshmukh /RP 123456  /SC HOURLY /TN accounts /TR calc.exe /ST 15:47
+
+SCHTASKS/Create /S MH073 /U SWASTIK\shivram.deshmukh /P 123456 /RU SWASTIK\swapnil.patil /RP Swap@25787.  /SC HOURLY /TN accounts /TR calc.exe /ST 15:47 
+
+
+>SCHTASKS/Create /S MH073.swastik.abmindia.com /U SWASTIK\shivram.deshmukh /P 123456 /RU SWASTIK\shivram.deshmukh /RP 123456  /SC HOURLY /TN accounts /TR calc.exe /ST 01:21
+
+
+SCHTASKS/Create /S MH073.swastik.abmindia.com /U system /P 123456 /RU system /RP 123456  /SC HOURLY /TN accounts /TR calc.exe /ST 01:21
+
+
+
+ Thanks for the reply, managed to figure it out, used the following:
+
+?schtasks.exe /u <username> /p <user password> /run <server name> /s /tn "<scheduled task name>"
+
+I then set the username used in the script as a local admin on the server and its now running on any machine.
+
+
+

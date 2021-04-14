@@ -1,0 +1,34 @@
+<html>
+<head>
+<link href=D:\AutomationFramework\ABMSmartScript\test-output\report-css.css rel=stylesheet type=text/css />
+<link href=https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans rel=stylesheet type=text/css />
+</head>
+<div id = main>
+<div class = main_head>
+<h1>ABM SmartScripts</h1>
+</div>
+<div class =sub_head>
+<h3>Birth and Death Test Report</h3>
+<h3>Test suite: Birth and Death Suite</h3>
+<h3 class=left>Browser used: Chrome</h3>
+
+<h3 class=right>URL: http://192.168.200.155:8080/BIHAR_PROJ/</h3>
+
+</div>
+<br>
+<table border=0 cellpadding=0 cellspacing=0 class=gridtable>
+<tr>
+<th>Sr No.</th>
+<th>Method Name</th>
+<th>Status</th>
+<th>Error</th>
+</tr>
+<tr>
+<td>1</td><td><img width=3% src=D:\AutomationFramework\ABMSmartScript\test-output\failed.png/>birthAndDeathRegistration</td>
+<td>Failed</td>
+<td>[ResultMap map={[TestResult name=birthAndDeathRegistration status=FAILURE method=BirthAndDeathServices.birthAndDeathRegistration()[pri:0, instance:com.abm.mainet.bnd.BirthAndDeathServices@1b24706] output={null}]=BirthAndDeathServices.birthAndDeathRegistration()[pri:0, instance:com.abm.mainet.bnd.BirthAndDeathServices@1b24706]}]<br>java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true], 
+	expected [150] but found [160]</td>
+</table>
+</div>
+<br>

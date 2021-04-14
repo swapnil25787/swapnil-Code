@@ -1,0 +1,14 @@
+body {font-family:'Open Sans'Arial, Helvetica, sans-serif; font-size:11px; color: #000000;	 font-weight: 400; margin:0px; overflow-x: hidden;}
+#main{ width:80%; margin:0px auto; margin-top:20px;}
+table.gridtable {width: 100%; font-size:11px;  border-collapse: collapse; overflow-x:auto; text-align:center; clear:both;}
+table.gridtable th{padding: 5px; font-size:13px; color:#122c8d; background-color: rgba(207, 214, 255, 0.9); border:1px solid rgba(81, 81, 81, 0.4);}
+table.gridtable td{font-size:12px; line-height:20px; color:#000000; padding:5px; background-color: rgba(243, 248, 254, 0.3); border: 1px solid rgba(81, 81, 81, 0.4); text-align: left; vertical-align: top;}
+table.gridtable tr:nth-child(2n){background: #eff3ff;}
+.main_head{background:#008cee; clear:both; float:left; position:relative; width:100%;}
+.main_head h1{font-size:28px; color:#a5daff; padding:5px 0px; text-align:center; margin:0px; line-height:30px;}
+.main_head h2{font-size:20px; color:#FFF; padding:3px 0px; margin:0px; text-align:center;}
+.sub_head{background:#0060a4; float:left; clear:both; position:relative; width:100%; overflow:hidden; margin-bottom:10px;}
+.sub_head h3{font-size:14px; line-height:13px; color:#FFF; margin:0px; padding:10px 10px; text-align:center;}
+.left{float:left;}
+.right{ float:right;}
+table.headTable {width: 100%; overflow-x:auto; border-collapse: collapse;}

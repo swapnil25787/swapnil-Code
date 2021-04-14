@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RTI Services" parallel="false">
+
+	<listeners>
+		
+ 		<listener class-name="api.TestReport" />
+		<listener class-name="api.MyTransformer" />
+		<listener class-name="api.TestNgInvocationListener" />
+		<listener class-name="api.TestListener" />
+		</listeners> 		
+		
+	<test name="main-suite-test1">
+		<classes>
+
+			<class name="com.abm.mainet.rti.RTIServices" />
+	
+		</classes>
+
+	</test> 
+ 
+</suite>
+

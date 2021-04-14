@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EIPMasterAndTransaction]">
+  <listeners>
+    <listener class-name="api.TestReport"/>
+    <listener class-name="api.MyTransformer"/>
+    <listener class-name="api.TestNgInvocationListener"/>
+  </listeners>
+  <test name="main-suite-test1(failed)">
+    <classes>
+      <class name="com.abm.mainet.eip.EipMastersAndTransactions">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="EIP_Quick_Link_Master"/>
+        </methods>
+      </class> <!-- com.abm.mainet.eip.EipMastersAndTransactions -->
+    </classes>
+  </test> <!-- main-suite-test1(failed) -->
+</suite> <!-- Failed suite [EIPMasterAndTransaction] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TSMastersAndTransactions]">
+  <listeners>
+    <listener class-name="api.MyTransformer"/>
+    <listener class-name="api.TestNgInvocationListener"/>
+  </listeners>
+  <test name="main-suite-test1(failed)">
+    <classes>
+      <class name="com.abm.mainet.ts.TSMastersAndTransactions">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="TS_redminets"/>
+        </methods>
+      </class> <!-- com.abm.mainet.ts.TSMastersAndTransactions -->
+    </classes>
+  </test> <!-- main-suite-test1(failed) -->
+</suite> <!-- Failed suite [TSMastersAndTransactions] -->

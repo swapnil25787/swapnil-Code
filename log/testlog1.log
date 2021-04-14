@@ -1,0 +1,89 @@
+2020-01-16 19:58:41,871 [main] INFO api.CommonUtilsAPI - Execution Start Time is 16/01/2020 19:58:41
+2020-01-16 19:58:41,876 [main] INFO api.CommonUtilsAPI - Execution Start Time is 16/01/2020 19:58:41
+2020-01-16 19:58:41,984 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:42,202 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:42,203 [main] INFO api.CommonUtilsAPI - Reading a value associated with key: testReportPropertiesPath
+2020-01-16 19:58:42,203 [main] INFO api.CommonUtilsAPI - Reading done, value: .\functional\report.properties
+2020-01-16 19:58:42,203 [main] INFO api.CommonUtilsAPI - Reading from properties
+2020-01-16 19:58:42,213 [main] INFO api.CommonUtilsAPI - Reading done
+2020-01-16 19:58:42,214 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:42,219 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:42,222 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:42,226 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:42,239 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:42,246 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:42,247 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:42,251 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:42,253 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:42,258 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:42,338 [main] INFO api.CommonUtilsAPI - I am in My Transformer
+2020-01-16 19:58:42,339 [main] INFO api.CommonUtilsAPI - Reading a value associated with key: RTI
+2020-01-16 19:58:42,339 [main] INFO api.CommonUtilsAPI - Reading done, value: \framework\excelreader\RTI\RTI_ControlFile.xlsx
+2020-01-16 19:58:43,058 [main] INFO api.CommonUtilsAPI - no of columns in scenario reader is 8
+2020-01-16 19:58:43,073 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:43,077 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:43,077 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:43,081 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:43,081 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:43,084 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:43,085 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:43,106 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:43,107 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:43,110 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:43,128 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-16 19:58:43,131 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-16 19:58:43,154 [main] INFO api.CommonUtilsAPI - I am in My Transformer
+2020-01-16 19:58:43,156 [main] INFO api.CommonUtilsAPI - I am in My Transformer
+2020-01-16 19:58:43,157 [main] INFO api.CommonUtilsAPI - I am in My Transformer
+2020-01-16 19:58:43,158 [main] INFO api.CommonUtilsAPI - I am in My Transformer
+2020-01-16 19:58:43,158 [main] INFO api.CommonUtilsAPI - I am in My Transformer
+2020-01-16 19:58:43,159 [main] INFO api.CommonUtilsAPI - I am in My Transformer
+2020-01-16 19:58:43,160 [main] INFO api.CommonUtilsAPI - I am in My Transformer
+2020-01-16 19:58:43,161 [main] INFO api.CommonUtilsAPI - I am in My Transformer
+2020-01-16 19:58:43,265 [main] INFO api.CommonUtilsAPI - Creating module folder
+2020-01-16 19:58:43,282 [main] INFO api.CommonUtilsAPI - Module folder created
+2020-01-16 19:58:43,296 [main] INFO api.CommonUtilsAPI - {Method Name=[Execution Flag, Priority, From Column No, To Column No, ID Sheets, Data Sheets], rti_ApplicationEntry=[Yes, 1, 1, 1, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ApplicationEntry_ID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ApplicationEntry_Data.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\Apptime_payment_data.xlsx], rti_Response=[no, 2, 1, 1, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_Response_ID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_Response_Data.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_LOIPayment_Data.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\LOItime_payment_data.xlsx], rti_FirstAppealEntry=[no, 3, 1, 1, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_CtznFirstAppeal_ID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_CtznFirstAppeal_Data.xlsx], rti_FirstAppealResponse=[no, 4, 1, 1, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ApaFirstAppeal_ID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ApaFirstAppeal_Data.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\LOItime_payment_data.xlsx], rti_HearingProcess=[no, 5, 1, 1, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ApaFirstAppeal_ID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ApaFirstAppeal_Data.xlsx], rti_ResponseAftrFirstAppeal=[no, 6, 1, 1, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_Response_ID.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ApaFirstAppeal_ID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ResponseAftrFirstApl_Data.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_LOIPayment_Data.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\LOItime_payment_data.xlsx], rti_secondAppealEntry=[no, 7, 22, 22, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonID.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ApaFirstAppeal_ID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_Response_ID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_SecondAppeal_ID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_SecondAppeal_Data.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ResponseAftrSecondApl_Data.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_LOIPayment_Data.xlsx], rti_verAppStatus=[no, 8, 1, 1, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx], rti_reset=[no, 9, 1, 1, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonID.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx]}
+2020-01-16 19:58:43,633 [main] INFO api.CommonUtilsAPI - datasheets:::D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\CommonData.xlsx, D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\RTI_ApplicationEntry_Data.xlsx,D:\AutomationFramework\ABMSmartScript\framework\excelreader\RTI\Apptime_payment_data.xlsx
+2020-01-16 19:58:44,840 [main] INFO api.CommonUtilsAPI - Creating artefacts folder
+2020-01-16 19:58:44,840 [main] INFO api.CommonUtilsAPI - Reading a value associated with key: modulePath
+2020-01-16 19:58:44,840 [main] INFO api.CommonUtilsAPI - Reading done, value: D:\Test_Artefacts\
+2020-01-16 19:58:44,841 [main] INFO api.CommonUtilsAPI - Created artefacts folder
+2020-01-16 19:58:44,842 [main] INFO api.CommonUtilsAPI - Reading a value associated with key: browserName
+2020-01-16 19:58:44,842 [main] INFO api.CommonUtilsAPI - Reading done, value: Chrome
+2020-01-16 19:58:44,842 [main] INFO api.CommonUtilsAPI - Starting browser Chrome
+2020-01-16 19:58:44,842 [main] INFO api.CommonUtilsAPI - Waiting for 5 sec...
+2020-01-16 19:58:45,058 [main] INFO api.CommonUtilsAPI - Waited for 5 sec...
+2020-01-16 19:58:45,058 [main] INFO api.CommonUtilsAPI - Reading a value associated with key: chromeDriverPath
+2020-01-16 19:58:45,058 [main] INFO api.CommonUtilsAPI - Reading done, value: .\functional\config\chromedriver36.exe
+2020-01-22 19:35:13,782 [main] INFO api.CommonUtilsAPI - Execution Start Time is 22/01/2020 19:35:13
+2020-01-22 19:35:13,824 [main] INFO api.CommonUtilsAPI - Execution Start Time is 22/01/2020 19:35:13
+2020-01-22 19:35:14,030 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:14,217 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:14,269 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:14,273 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:14,273 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:14,277 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:14,278 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:14,282 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:14,282 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:14,286 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:14,314 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:14,318 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:14,444 [main] INFO api.CommonUtilsAPI - Creating module folder
+2020-01-22 19:35:14,460 [main] INFO api.CommonUtilsAPI - Module folder created
+2020-01-22 19:35:31,433 [main] INFO api.CommonUtilsAPI - Execution Start Time is 22/01/2020 19:35:31
+2020-01-22 19:35:31,436 [main] INFO api.CommonUtilsAPI - Execution Start Time is 22/01/2020 19:35:31
+2020-01-22 19:35:31,464 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:31,572 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:31,573 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:31,577 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:31,578 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:31,581 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:31,582 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:31,586 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:31,586 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:31,589 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:31,592 [main] INFO api.CommonUtilsAPI - Reading from XML
+2020-01-22 19:35:31,595 [main] INFO api.CommonUtilsAPI - Reading done from XML : D:/AutomationFramework/ABMSmartScript/functional/config/config.xml
+2020-01-22 19:35:31,658 [main] INFO api.CommonUtilsAPI - Creating module folder
+2020-01-22 19:35:31,658 [main] INFO api.CommonUtilsAPI - Module folder created

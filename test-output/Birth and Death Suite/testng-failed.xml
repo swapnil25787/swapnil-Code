@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Birth and Death Suite]">
+  <listeners>
+    <listener class-name="com.abm.mainet.bnd.BndCustomReport"/>
+  </listeners>
+  <test name="main-suite-test1(failed)">
+    <classes>
+      <class name="com.abm.mainet.bnd.BirthAndDeathServices">
+        <methods>
+          <include name="birthAndDeathRegistration"/>
+        </methods>
+      </class> <!-- com.abm.mainet.bnd.BirthAndDeathServices -->
+    </classes>
+  </test> <!-- main-suite-test1(failed) -->
+</suite> <!-- Failed suite [Birth and Death Suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="RNL Services" parallel="false">
+	<listeners>
+		<listener class-name="api.TestReport" />
+		<listener class-name="api.MyTransformer" />
+		<listener class-name="api.TestNgInvocationListener" />
+		<listener class-name="errorhandling.InvokedMethodListener" />
+	</listeners>
+		
+		
+	<test name="main-suite-test1">
+		<classes>
+		
+			<class name="com.abm.mainet.rnl.RentAndLeaseServices" />
+			
+		</classes>
+	
+	
+	</test>
+
+</suite>
